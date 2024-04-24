@@ -5,11 +5,26 @@
   box-sizing: border-box;
 }
 
+
+button{
+  background-color: aqua;
+  width: 100px;
+  position: absolute;
+  left: 40%;
+}
 .instruction, .book {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.qr{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -45%);
 }
 
 body {
@@ -17,20 +32,18 @@ body {
   height: 100vh;
   min-width: 900px;
   min-height: 700px;
-  background: #fbecb4;
+  background: url(images/space.png);
   position: relative;
 }
 
 .book {
   width: 847px;
   height: 654.5px;
-  transform: translate(-50%, -50%) rotatex(10deg) rotatey(-10deg);
+  transform: translate(-20%, -50%) rotatex(10deg) rotatey(-10deg);
   transform-style: preserve-3d;
 }
 
 .page {
-  width: 423.5px;
-  height: 654.5px;
   background: #eee;
   position: absolute;
   top: 0;
@@ -64,7 +77,7 @@ body {
   padding: 5% 4% 4% 5%;
   transform-origin: 0% 50%;
   transform: translatez(-3px);
-  background: #f5f5f5;
+  /* background: url(images/einstein.webp); */
 }
 
 .left-side:nth-child(3) {
@@ -75,7 +88,7 @@ body {
   padding: 5% 5% 4% 4%;
   transform-origin: 100% 50%;
   transform: translatez(-4px) scalex(-1) translatex(100%);
-  background: #f5f5f5;
+  /* background: url(images/bomb.jpg); */
 }
 
 .left-side:nth-child(4) {
@@ -86,7 +99,7 @@ body {
   padding: 5% 4% 4% 5%;
   transform-origin: 0% 50%;
   transform: translatez(-5px);
-  background: #f5f5f5;
+  /* background: url(images/bomb1.jpg); */
 }
 
 .left-side:nth-child(5) {
@@ -97,7 +110,7 @@ body {
   padding: 5% 5% 4% 4%;
   transform-origin: 100% 50%;
   transform: translatez(-6px) scalex(-1) translatex(100%);
-  background: #f5f5f5;
+  /* background: url(images/nucleaire.webp); */
 }
 
 .left-side:nth-child(6) {
@@ -952,6 +965,22 @@ p {
   padding: 10px 15px;
 }
 
+.size{
+  width:700px;
+  height:700px
+}
+@media only screen and (max-width: 600px) {
+  .book {
+    width: 547px;
+    height: 354.5px;
+    transform: translate(-20%, -50%) rotatex(10deg) rotatey(-10deg);
+    transform-style: preserve-3d;
+  }
+  .size{
+    width:400px;
+    height:400px
+  }
+}
 .lenda{
   position: relative;
   left: 35%;
