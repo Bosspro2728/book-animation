@@ -10,33 +10,36 @@ button{
   background-color: aqua;
   width: 100px;
   position: absolute;
-  left: 40%;
+  left: 50%;
+  transform: translate(-50%);
 }
-.instruction, .book {
+
+/* .instruction, .book {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+} */
+
+/* body {
+
+} */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(88, 22, 224), rgb(243, 48, 145));
 }
-.qr{
+iframe{
   position: absolute;
-  width: 600px;
-  height: 600px;
+  height: 100%;
+  width:50%;
   top: 50%;
   left: 50%;
-  transform: translate(-110%, -45%);
+  transform: translate(-50%, -50%);
 }
 
-body {
-  width: 100%;
-  height: 100vh;
-  min-width: 900px;
-  min-height: 700px;
-  background: url(images/space.png);
-  position: relative;
-}
-
-.book {
+/* .book {
   width: 847px;
   height: 654.5px;
   transform: translate(-20%, -50%) rotatex(10deg) rotatey(-10deg);
@@ -77,7 +80,7 @@ body {
   padding: 5% 4% 4% 5%;
   transform-origin: 0% 50%;
   transform: translatez(-3px);
-  /* background: url(images/einstein.webp); */
+  //background: url(images/einstein.webp);
 }
 
 .left-side:nth-child(3) {
@@ -88,7 +91,9 @@ body {
   padding: 5% 5% 4% 4%;
   transform-origin: 100% 50%;
   transform: translatez(-4px) scalex(-1) translatex(100%);
-  /* background: url(images/bomb.jpg); */
+  //background-image: url('images/Capture.JPG');
+  //background-repeat: no-repeat;
+  //background-size: 750px 680px; 
 }
 
 .left-side:nth-child(4) {
@@ -99,7 +104,10 @@ body {
   padding: 5% 4% 4% 5%;
   transform-origin: 0% 50%;
   transform: translatez(-5px);
-  /* background: url(images/bomb1.jpg); */
+  //background-image: url('images/Capture1.JPG');
+  //background-repeat: no-repeat;
+  //background-size: 750px 680px; 
+  //background: url(images/bomb1.jpg); 
 }
 
 .left-side:nth-child(5) {
@@ -110,7 +118,7 @@ body {
   padding: 5% 5% 4% 4%;
   transform-origin: 100% 50%;
   transform: translatez(-6px) scalex(-1) translatex(100%);
-  /* background: url(images/nucleaire.webp); */
+  //background: url(images/nucleaire.webp); 
 }
 
 .left-side:nth-child(6) {
@@ -953,7 +961,7 @@ p {
 
 .page:nth-child(3) p:first-of-type:first-letter {
   font-size: 32px;
-}
+} */
 
 .instruction {
   left: calc(50% - 150px);
