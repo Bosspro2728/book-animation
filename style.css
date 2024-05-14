@@ -28,7 +28,7 @@ button{
 
 #particles-js{
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   background: black
 }
 iframe{
@@ -53,13 +53,6 @@ iframe{
 .size{
   width:700px;
   height:700px
-}
-@media only screen and (max-width: 600px) {
-  #particles-js{
-    width: 100%;
-    height: 500vh;
-    background: black
-  }
 }
 .lenda{
   position: relative;
