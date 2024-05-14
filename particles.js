@@ -22,10 +22,10 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 200,
+        value: 100,
         density: {
           enable: true,
-          value_area: 800
+          value_area: 300
         }
       },
       color: {
