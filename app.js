@@ -19,7 +19,7 @@ particlesJS('particles-js',
         "value": 200,
         "density": {
           "enable": true,
-          "value_area": 100000
+          "value_area": 10000
         }
       },
       "color": {
@@ -62,14 +62,14 @@ particlesJS('particles-js',
       },
       "line_linked": {
         "enable": true,
-        "distance": 10,
+        "distance": 100,
         "color": "#ffffff",
         "opacity": 0.4,
         "width": 2
       },
       "move": {
         "enable": true,
-        "speed": 70,
+        "speed": 35,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -89,7 +89,7 @@ particlesJS('particles-js',
           "mode": "repulse"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
